@@ -5,6 +5,7 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/scripts.js"></script>
 </head>
+<div id="cool">
 <body>
   <h1>Welcome To Programming</h1>
     <p>There are many languages to programming to learn and can seem daunting to choose which direction to go in. Here I have created a short survey that can help you decide on the right fit for you!</p>
@@ -19,15 +20,17 @@
     <form id="question1">
 
     <label>
-      <input type="radio" name="operator" value="yes">
-      yes
-    </label>
+      <input type="radio" name="operator" value="shrek">
+      Yes I am a swamp ogre 
+    </label><br>
     <label>
-      <input type="radio" name="operator" value="no">
-      no
+      <input type="radio" name="operator" value="titanic">
+      No I haven't seen the sun in 84 years
+    </label><br>
+    <label>
+      <input type="radio" name="operator" value="core">
+      I live inside the center of the Earth
     </label>
-
-    <button type="submit" class="btn">Go!</button>
   </form>
 
 
@@ -35,15 +38,17 @@
 <form id="question2">
 
   <label>
-    <input type="radio" name="operator" value="yes">
-    yes
-  </label>
+    <input type="radio" name="operator" value="meat">
+    Yes, give me the carcass of my enemies
+  </label><br>
   <label>
-    <input type="radio" name="operator" value="no">
-    no
+    <input type="radio" name="operator" value="vegan">
+    No, I stick to what grows out of the earth
+  </label><br>
+  <label>
+    <input type="radio" name="operator" value="anything">
+    I'll eat anything
   </label>
-
-  <button type="submit" class="btn">Go!</button>
 </form>
 
 
@@ -51,48 +56,60 @@
 <form id="question3">
 
   <label>
-    <input type="radio" name="operator" value="yes">
-    yes
-  </label>
+    <input type="radio" name="operator" value="four">
+    4??
+  </label><br>
   <label>
-    <input type="radio" name="operator" value="no">
-    no
+    <input type="radio" name="operator" value="rent">
+    525,600
+  </label><br>
+  <label>
+    <input type="radio" name="operator" value="collection">
+    Wanna check out my crystal collection?
   </label>
-
-  <button type="submit" class="btn">Go!</button>
 </form>
 
 <h1>Who throws the ring of Sauron into Mt. Doom?</h1>
   <form id="question4">
 
     <label>
-      <input type="radio" name="operator" value="yes">
-      yes
-    </label>
+      <input type="radio" name="operator" value="smeagol">
+      Smeagol
+    </label><br>
     <label>
-      <input type="radio" name="operator" value="no">
-      no
+      <input type="radio" name="operator" value="gollum">
+      Gollum
+    </label><br>
+    <label>
+      <input type="radio" name="operator" value="relative">
+      Is this really relative to coding...?
     </label>
-
-    <button type="submit" class="btn">Go!</button>
   </form>
 
 <h1>Which language are you interested in?</h1>
 <form id="question5">
   <label>
-    <input type="radio" name="operator" value="yes">
-    yes
-  </label>
+    <input type="radio" name="operator" value="ruby">
+    Ruby
+  </label><br>
   <label>
-    <input type="radio" name="operator" value="no">
-    no
+    <input type="radio" name="operator" value="python">
+    Python
+  </label><br>
+  <label>
+    <input type="radio" name="operator" value="javascript">
+    Javascript
   </label>
-
-  <button type="submit" class="btn">Go!</button>
 </form>
 
+<h1>
+<button type="submit" id="submit" onclick="Answers()">Submit If You Dare</button>
+<button type="reset" id="reset" onclick="resetAnswer()">No I'm Not Ready</button>
+</form>
+</h1>
 
 <h1>Results</h1>
   <p id="output"></p>
 </body>
+</div>
 </html>
