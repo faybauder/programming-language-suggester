@@ -20,16 +20,16 @@
     <form id="question1">
 
     <label>
-      <input type="radio" name="operator" value="shrek">
-      Yes I am a swamp ogre. Python it is.
+      <input type="radio" name="operator" value="shrek" checked>
+      Yes I am a swamp ogre.
     </label><br>
     <label>
       <input type="radio" name="operator" value="titanic">
-      No I haven't seen the sun in 84 years. Ruby is for me.
+      No I haven't seen the sun in 84 years.
     </label><br>
     <label>
       <input type="radio" name="operator" value="core">
-      I live inside the center of the Earth. Javascript.
+      I live inside the center of the Earth.
     </label>
   </form>
 
@@ -38,16 +38,16 @@
 <form id="question2">
 
   <label>
-    <input type="radio" name="operator" value="meat">
-    Yes, give me the carcass of my enemies. I choose Python.
+    <input type="radio" name="operator" value="meat" checked>
+    Yes, give me the carcass of my enemies.
   </label><br>
   <label>
     <input type="radio" name="operator" value="vegan">
-    No, I stick to what grows out of the earth. I suppose Ruby.
+    No, I stick to what grows out of the earth.
   </label><br>
   <label>
     <input type="radio" name="operator" value="anything">
-    I'll eat anything. Even Javascript.
+    I'll eat anything.
   </label>
 </form>
 
@@ -56,16 +56,16 @@
 <form id="question3">
 
   <label>
-    <input type="radio" name="operator" value="four">
-    4?? Python?
+    <input type="radio" name="operator" value="four" checked>
+    4??
   </label><br>
   <label>
     <input type="radio" name="operator" value="rent">
-    525,600. Rubyyyyyy
+    525,600.
   </label><br>
   <label>
     <input type="radio" name="operator" value="collection">
-    Wanna check out my crystal collection? Or Javascript?
+    Wanna check out my crystal collection?
   </label>
 </form>
 
@@ -73,23 +73,23 @@
   <form id="question4">
 
     <label>
-      <input type="radio" name="operator" value="smeagol">
-      Smeagol. Python for me baby
+      <input type="radio" name="operator" value="smeagol" checked>
+      Smeagol.
     </label><br>
     <label>
       <input type="radio" name="operator" value="gollum">
-      Gollum. Rubys are my favorite type of ring.
+      Gollum.
     </label><br>
     <label>
       <input type="radio" name="operator" value="relative">
-      Is this really relative to coding...? I'll take Javascript I guess.
+      Is this really relative to coding...?
     </label>
   </form>
 
 <h1>Which language are you interested in?</h1>
 <form id="question5">
   <label>
-    <input type="radio" name="operator" value="python">
+    <input type="radio" name="operator" value="python" checked>
     Python
   </label><br>
   <label>
@@ -109,9 +109,11 @@
 </h1>
 
 <h1>Results</h1>
-  <p id="output">Congratulations! Looks like Python is the way for you.</p>
-  <p id="output">Awesome! Ruby should suit you very well.</p>
-  <p id="output">Woohoo! Javascript will be your road to success.</p>
+<div id="results" class="hidden">
+  <p id="outputPython">Congratulations! Looks like Python is the way for you.</p>
+  <p id="outputRuby">Awesome! Ruby should suit you very well.</p>
+  <p id="outputJava">Woohoo! Javascript will be your road to success.</p>
+</div>  
 </body>
 </div>
 </html>
