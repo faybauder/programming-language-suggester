@@ -9,10 +9,3 @@
     const answer3 = document.getElementById("question3");
     const answer4 = document.getElementById("question4");
     const answer5 = document.getElementById("question5");
-
-    document.querySelector("") = 
-    document.querySelector("") = 
-    document.querySelector("") = 
-    document.querySelector("") = 
-    document.querySelector("") = 
-  });
